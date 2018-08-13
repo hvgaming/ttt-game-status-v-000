@@ -43,7 +43,7 @@ end
 
 def winner(board)
 
- won?.all |token|
+.all |token|
     token == "X" || token == "O"
     end
 
