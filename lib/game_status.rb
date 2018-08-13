@@ -43,7 +43,7 @@ end
 
 def winner(board)
 
- won?(board) 
+ won?(board) == token
  
     token == "X" || token == "O"
     if  == "X"
