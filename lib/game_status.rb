@@ -47,9 +47,6 @@ def winner(board)
     token == "X" && token == "O"
     
   
-    
-    
-    
     end
 
 
