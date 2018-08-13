@@ -43,16 +43,18 @@ end
 
 def winner(board)
 
- won?(board) == token
+ won?(board) = token
  
     token == "X" || token == "O"
-    if  == "X"
-      return "X"
-    elsif  == "O"
-    return "O"
-  else nil
+    
+  if    == "X"
+     won?(board) return "X"
+  elsif won?(board)  == "O"
+     return "O"
+  else 
+      nil
   end
-    end
+end
 
 
 
