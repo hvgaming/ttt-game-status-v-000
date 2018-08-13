@@ -43,13 +43,12 @@ end
 
 def winner(board)
 
-  token 
+  token = won?(board)
     token == "X" || token == "O"
     
     
     
     end
-
 end
 
 
