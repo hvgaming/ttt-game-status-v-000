@@ -42,8 +42,8 @@ def over?(board)
 end
 
 def winner(board)
-token  ["X","O"]
-won?(board) == token
+token = ["X","O"]
+token = won?(board)
     token == "X" || token == "O"
     if won?(board) == "X"
       return "X"
