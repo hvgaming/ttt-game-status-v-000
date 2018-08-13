@@ -44,11 +44,10 @@ end
 def winner(board)
 
  won?(board) = token
- 
-    token == "X" || token == "O"
+ token == "X" || token == "O"
     
-  if    == "X"
-     won?(board) return "X"
+  if won?(board)   == "X"
+      return "X"
   elsif won?(board)  == "O"
      return "O"
   else 
