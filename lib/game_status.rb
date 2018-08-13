@@ -43,7 +43,7 @@ end
 
 def winner(board)
 
- won?token|
+ won?(board).nil |token|
     token == "X" || token == "O"
     end
 
